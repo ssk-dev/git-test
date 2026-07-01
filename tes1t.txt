@@ -1,0 +1,2 @@
+git config --list --show-origin | grep user
+git config --show-origin --show-scope --get user.name 
